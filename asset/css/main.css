@@ -185,6 +185,7 @@
     float: right;
     align-items: center;
     padding: 7px;
+    cursor: pointer;
 }
 .header__cart-around {
     background-color: rgba(227, 33, 36, 1);
@@ -200,6 +201,7 @@
     top: 15px;
     left: 3px;
     line-height: 19px;
+    cursor: pointer;
 }
 .header__cart-notice-around {
     padding: 8px;
@@ -319,6 +321,7 @@
     padding: 0;
     max-height: 45vh;
     overflow-y: auto;
+    cursor: pointer;
 }
 .header__cart-item:hover {
     background-color: #f8f8f8;
@@ -573,7 +576,7 @@
     width: 100%;
     margin-right: 30px !important;
     margin-left: 30px;
-
+    cursor: pointer;
 }
 
 .slide-brand-dot {
@@ -613,6 +616,7 @@
     transition: 0.25s ease;
     border-radius: 0 3px 3px 0;
     z-index: 1;
+    cursor: pointer;
 }
 
 .prev:hover, 
@@ -1160,7 +1164,6 @@ footer {
     margin: 0 0 20px 0;
 }
 .footer__item-content {
-    pointer-events: none;
     display: block;
     font-size: 1.3rem;
 }
@@ -1216,10 +1219,12 @@ footer {
     font-size: 2rem;
     margin-right: 14px;
     line-height: 2.6rem;
-   
+    cursor: pointer;
 }
 .footer__item-socials a:hover {
     color: #ffffff;
+    cursor: pointer;
+
 }
 .footer__item-payment {
     display: flex;
@@ -1228,6 +1233,7 @@ footer {
 .footer__item-payment a img {
     max-height: 35px; 
     margin-right: 8px;
+    cursor: pointer;
 }
 .footer__item-congthuong img {
     max-width: 170px;
