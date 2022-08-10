@@ -1,0 +1,253 @@
+/* Mobile & tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-and-tablet {
+        display: none;
+    }
+    .header__search {
+        left: 0;
+    }
+    .header__section {
+        margin: 0;
+    }
+    .header__section-bar-list {
+        margin-top: 0;
+        padding: 0;
+    }
+    .header__section-item-icon {
+        display: none;
+    }
+    .header__section-bar-item {
+        pointer-events: none;
+    }
+    .header__section-bar-item {
+        padding: 17px 10px
+    }
+    .header__section-item-link {
+        font-size: 1.1rem;
+    }
+    .header__cart-wrap:hover {
+        pointer-events: none;
+    }
+
+    .slideshow-container {
+        width: 100%;
+    }
+    .prev, .next {
+        display: none;
+    }
+    .header__section-bar-item{
+        border: none;
+        
+    }
+    .container {
+        margin-bottom: 0;
+    }
+    .container__item {
+        display: flex;
+        
+    }
+    .index-policy-list {
+        overflow: hidden;
+        overflow-x: auto ;
+    }
+    .container__item img {
+        height: 50px;
+        width: 50px;
+    }
+    .container__item {
+        pointer-events: none;
+    }
+    .l-1-2 {
+        /* flex: unset; */
+        max-width: 40%;
+        padding: 0 10px;
+    }
+    .index-policy-list::-webkit-scrollbar {
+        width: 0;
+       
+    }
+
+    .product__rating {
+        margin-right: 10px;
+        font-size: 0.8rem;
+    }
+    .product__sold-quanity {
+        margin-right: 10px;
+        font-size: 1rem;
+    }
+
+    
+   
+  
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .slide-brand-dot {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -90%);
+    }
+    .dot {
+        height: 10px;
+        width: 10px;
+    }
+    
+
+    .suggestion__item a  {
+        min-width:unset;
+    }
+    .m-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .m-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    .footer-content {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-one-mobile {
+        display: none;
+    }
+    .header__logo {
+        width: 70%;
+    }
+    .header__cart-icon {
+        font-size: 22px;
+        top: 7px;
+        left: 2px;
+    }
+    .header__cart-around {
+        width: 30px;
+        height: 30px;
+    }
+    .header__cart-notice-number{
+        top: -14px;
+        font-size: 12px;
+    }
+    .header__section-bar-list {
+        overflow: hidden;
+        overflow-x: auto;
+        white-space: nowrap;
+        justify-content: unset;
+    }
+   
+    .header__section-bar-list::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .slide-brand-dot {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -80%);
+    }
+    .dot {
+        height: 8px;
+        width: 8px;
+    }
+    .notice-board h2 {
+        font-size: 1.4rem;
+        margin: 0 0 3px 0;
+        line-height: 2rem;
+        
+    }
+    .notice-board p {
+        font-size: 1.2rem;
+    }
+    .header__section-bar-list{
+        margin-bottom: -20px;
+    }
+    .collection__header-title img {
+        width: 150px;
+    }
+    
+    .hour,
+    .minute,
+    .second {
+        width: 34px;
+        height: 28px ;
+        padding: 3px;
+    }
+    .countdown {
+        padding-top: 25px;
+    }
+    .countdown__container span {
+        padding: 0;
+    }
+
+    .suggestion-wrapper {
+        margin: 0;
+        padding: 0 10px;
+        border:none;
+        overflow-x: auto;
+        border-radius: 0;
+    }
+
+    .suggestion-wrapper::-webkit-scrollbar {
+        width: 0;
+    }
+    .m-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .m-12 {
+        flex: 0 0 100%;
+        min-width: 100%;
+    }
+
+    .footer__wrapper > div:nth-child(1) {
+        order: 4;
+    }
+    .footer__wrapper > div:nth-child(2) {
+        order: 3;
+    }
+    .footer__wrapper > div:nth-child(3) {
+        order: 2;
+    }
+    .footer__wrapper > div:nth-child(4) {
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .footer__item-heading {
+        cursor: pointer;
+        padding: 2px;
+    }
+    .mySlides {
+        margin-right: 0px !important;
+        margin-left: 0px;
+    
+    }
+    .hide {
+        display: none;
+    }
+    .rowSlider {
+        padding: 0;
+    }
+    .collection {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .collection__header-left {
+        margin-left: 20px;
+    }
+    .footer-content {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}
